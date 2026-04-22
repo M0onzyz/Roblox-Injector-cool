@@ -1,0 +1,21 @@
+OFFSETLESS INJECTOR by devkanel
+yo, i made this injector so u dont have to deal with annoying offsets every time the game updates.
+
+how it works:
+it uses thread hijacking and module stomps your dll into d3d10warps.dll. simple as that.
+
+there’s a driver included in the files but the injector doesn't use it by default, but it's there if u want to set it up yourself to stay fully undetected.
+
+NOTE: if the project wont build, it’s probably cuz u don't got the WDK (windows driver kit) installed. just unload the driver project and it should build.
+
+also, thejre is a small flaw,
+the SEH and TLS support is honestly kinda mid/trash right now, but it can run std::thread from what i've tested. feel free to fix the code or optimize it if u know what ur doing.
+
+contact / help
+if it still wont build or u have questions, dm me on discord.
+
+discord: kaneldev
+
+stop asking for offsets and enjoy. :)
+
+ENJOY SKIDS!!! (READ LICENSE PLZ)
